@@ -1,0 +1,39 @@
+* {
+    margin :0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+body {
+    font-family: "Orbikular";
+}
+
+header {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(images_homepage/homepage.png);
+}
+
+.navbar {
+    position: absolute;
+    padding: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.navbar a {
+    color: black;
+}
+
+.navbar .nav-links ul {
+    display: flex;
+}
+
+.navbar .nav-links ul li{
+    margin: 0 48px;
+}
