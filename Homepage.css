@@ -131,11 +131,6 @@ header {
     background-image: url(images_homepage/homepage.png);
 }
 
-.after-header{
-    padding-left: 96px;
-    padding-right: 96px;
-}
-
 /*Présentation de la dordogne*/
 .presentation{
     padding: 148px 0px 204px 0px;
@@ -147,8 +142,13 @@ header {
     margin-top: 24px;
 }
 
-.swimming-pool-img{
-    position: relative;
+.after-header{
+    padding-left: 96px;
+    padding-right: 96px;
+}
+
+#swimming-pool-img{
+    position: absolute;
     width: 506px;
     height: 270px;
     left: 96px;
@@ -156,7 +156,7 @@ header {
 
 }
 
-.living-room-img{
+#living-room-img{
     position: absolute;
     width: 718px;
     height: 530px;
