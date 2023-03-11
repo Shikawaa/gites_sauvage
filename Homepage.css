@@ -6,28 +6,62 @@
 
 }
 
-body {
-    font-family: "Orbikular";
+body{
+    font-family: "Satoshi";
 }
 
-header {
-    height: 100vh;
-    width: 100vw;
-    background-image: url(images_homepage/homepage.png);
+img{
+    border-radius: 6px;
 }
 
+/*Button-hover*/
+.blue-button{
+    color: white;
+    padding: 5.5px 48px;
+
+    background-color: #015D97;
+    border-radius: 6px;
+}
+
+.blue-button:hover{
+    background-color: #0566A4;
+}
+
+.grey-button{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+
+    color: white;
+
+    padding: 5.5px 48px;
+    background-color: #5E565A;
+    border: none;
+    border-radius: 6px;
+}
+
+.grey-button:hover{
+    background-color: #655D61;
+}
+/*Button-hover*/
+
+/* Navbar-Start */
 .navbar {
-    position: absolute;
-    padding: 80px;
+    font-family: "Satoshi";
+
     display: flex;
+    position: absolute;
+    padding-right: 96px;
+    padding-left: 96px;
     align-items: center;
     justify-content: space-between;
-    width: 100%;
-    box-sizing: border-box;
-}
 
-.navbar a {
-    color: black;
+    height: 122px;
+    width: 100%;
+    
+    box-sizing: border-box;
+    background-color: white;
 }
 
 .navbar .nav-links ul {
@@ -37,3 +71,108 @@ header {
 .navbar .nav-links ul li{
     margin: 0 48px;
 }
+
+.navbar a{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.contact{
+    color:black;
+}
+
+/* Navbar-End */
+
+/* Titles-Start */
+h1{
+    font-family: 'Orbikular';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 72px;  
+
+    color: white;
+
+    max-width: 813px;
+}
+
+h2{
+    font-family: 'Orbikular';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+
+    padding: 10px 40px 10px 40px;
+
+    border-radius: 6px;
+
+    color: white;
+    background-color: #5E565A;
+}
+
+h3{
+    font-family: 'Orbikular';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+}
+
+/* Titles-End */
+
+
+header {
+    padding-left: 202px;
+    padding-right: 426px;
+    padding-top: 449px;
+    padding-bottom: 228px;
+    background-image: url(images_homepage/homepage.png);
+}
+
+/*Button Discover*/
+
+/**/
+
+
+.after-header{
+    padding-left: 96px;
+    padding-right: 96px;
+}
+
+/*Présentation de la dordogne*/
+.presentation{
+    padding: 148px 0px 204px 0px;
+}
+
+.h2-presentation {
+    position: absolute;
+    width: 581px;
+    margin-top: 24px;
+}
+
+.presentation-grid{
+    display: grid;
+
+    grid-template-columns: 35% 49%;
+    grid-column-gap: 24px;
+    grid-template-rows: 2fr 1fr;
+}
+
+.a{
+    grid-column: 1;
+    grid-row: 1;
+}
+.b{
+    grid-column: 2;
+    grid-row: 2;
+}
+.c{
+    grid-column: 1;
+    grid-row: 2;
+    width:350px;
+}
+
+
+
