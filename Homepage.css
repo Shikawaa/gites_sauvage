@@ -131,11 +131,6 @@ header {
     background-image: url(images_homepage/homepage.png);
 }
 
-/*Button Discover*/
-
-/**/
-
-
 .after-header{
     padding-left: 96px;
     padding-right: 96px;
@@ -152,27 +147,33 @@ header {
     margin-top: 24px;
 }
 
-.presentation-grid{
-    display: grid;
+.swimming-pool-img{
+    position: relative;
+    width: 506px;
+    height: 270px;
+    left: 96px;
+    top: 1188px;
 
-    grid-template-columns: 35% 49%;
-    grid-column-gap: 24px;
-    grid-template-rows: 2fr 1fr;
 }
 
-.a{
-    grid-column: 1;
-    grid-row: 1;
-}
-.b{
-    grid-column: 2;
-    grid-row: 2;
-}
-.c{
-    grid-column: 1;
-    grid-row: 2;
-    width:350px;
+.living-room-img{
+    position: absolute;
+    width: 718px;
+    height: 530px;
+    left: 626px;
+    top: 1048px;
 }
 
+.p-presentation{
+    position: absolute;
+    width: 351px;
+    height: 75px;
+    left: 156px;
+    top: 1494px;
 
-
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+}
