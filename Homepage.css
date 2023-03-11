@@ -79,7 +79,7 @@ img{
 }
 
 .contact{
-    color:black;
+    color:#1D1D1F;
 }
 
 /* Navbar-End */
@@ -119,7 +119,6 @@ h3{
     font-size: 32px;
     line-height: 48px;
 }
-
 /* Titles-End */
 
 
@@ -131,21 +130,27 @@ header {
     background-image: url(images_homepage/homepage.png);
 }
 
-/*Présentation de la dordogne*/
-.presentation{
-    padding: 148px 0px 204px 0px;
-}
-
-.h2-presentation {
-    position: absolute;
-    width: 581px;
-    margin-top: 24px;
-}
-
 .after-header{
     padding-left: 96px;
     padding-right: 96px;
 }
+
+/*Présentation de la dordogne*/
+.presentation{
+    padding: 148px 0px 704px 0px;
+}
+
+.h2-presentation {
+    position: absolute;
+
+    z-index: 1;
+    left: 96px;
+    top: 1072px;    
+    width: 581px;
+    margin-top: 24px;
+}
+
+
 
 #swimming-pool-img{
     position: absolute;
@@ -153,7 +158,6 @@ header {
     height: 270px;
     left: 96px;
     top: 1188px;
-
 }
 
 #living-room-img{
