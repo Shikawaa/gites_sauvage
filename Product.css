@@ -8,7 +8,6 @@
 
 .navbar {
     font-family: "Satoshi";
-
     display: flex;
     position: absolute;
     padding-right: 96px;
@@ -21,6 +20,16 @@
     
     box-sizing: border-box;
     background-color: white;
+}
+
+#logo{
+    position: absolute;
+    width: 172.16px;
+    height: 48.21px;
+    left: 96px;
+    top: 32px;
+    font-family: "Orbikular";
+    font-weight: 700;
 }
 
 .navbar .nav-links ul {
@@ -50,12 +59,40 @@
 }
 
 #main_title{
+    position: relative;
     font-family: "Orbikular";
     font-weight: 700;
     font-size: 48px;
     line-height: 72px;
+    top: 222px;
+    left: 96px;
 }
 
 #top_image_one{
  position: absolute;
+ border-radius: 6px;
+ top: 326px;
+ left: 96px;
+}
+
+#top_image_two{
+    position: absolute;
+    border-radius: 6px;
+    top: 326px;
+    left: 838px;
+   }
+
+#top_image_three{
+    position: absolute;
+    border-radius: 6px;
+    top: 567px;
+    left: 838px;
+}
+
+#top_image_four{
+    position: absolute;
+    border-radius: 6px;
+    filter: blur(6px);
+    top: 567px;
+    left: 1102px;
 }
