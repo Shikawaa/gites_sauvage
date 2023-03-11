@@ -89,10 +89,26 @@
     left: 838px;
 }
 
-#top_image_four{
-    position: absolute;
-    border-radius: 6px;
-    filter: blur(6px);
-    top: 567px;
-    left: 1102px;
+.blurred_image #top_image_four{
+        position: absolute;
+        border-radius: 6px;
+        filter: blur(6px);
+        top: 567px;
+        left: 1102px;
+}
+
+.blurred_image #arrow{
+        position: absolute;
+        width: 64px;
+        height: 64px;
+        left: 1191px;
+        top: 648px;
+}
+
+.blurred_image:hover #top_image_four{
+ filter: none;
+}
+
+.blurred_image:hover #arrow{
+    opacity: 0%;
 }
