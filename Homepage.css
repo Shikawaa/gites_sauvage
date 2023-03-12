@@ -8,6 +8,7 @@
 
 body{
     font-family: "Satoshi";
+    color: #1D1D1F;
 }
 
 img{
@@ -22,12 +23,11 @@ img{
     background-color: #015D97;
     border-radius: 6px;
 }
-
 .blue-button:hover{
     background-color: #0566A4;
 }
 
-.grey-button{
+.grey-button-texte{
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
@@ -40,8 +40,7 @@ img{
     border: none;
     border-radius: 6px;
 }
-
-.grey-button:hover{
+.grey-button-texte:hover{
     background-color: #655D61;
 }
 /*Button-hover*/
@@ -61,15 +60,12 @@ img{
     width: 100%;
     
     box-sizing: border-box;
-    background-color: white;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .navbar .nav-links ul {
     display: flex;
-}
-
-.navbar .nav-links ul li{
-    margin: 0 48px;
 }
 
 .navbar a{
@@ -80,6 +76,7 @@ img{
 
 .contact{
     color:#1D1D1F;
+    margin-right: 48px;
 }
 
 /* Navbar-End */
@@ -105,7 +102,6 @@ h2{
     line-height: 60px;
 
     padding: 10px 40px 10px 40px;
-
     border-radius: 6px;
 
     color: white;
@@ -118,6 +114,12 @@ h3{
     font-weight: 600;
     font-size: 32px;
     line-height: 48px;
+    
+    padding: 6px 40px 6px 40px;
+    border-radius: 6px;
+
+    color: white;
+    background-color: #5E565A;
 }
 /* Titles-End */
 
@@ -130,14 +132,9 @@ header {
     background-image: url(images_homepage/homepage.png);
 }
 
-.after-header{
-    padding-left: 96px;
-    padding-right: 96px;
-}
-
 /*Présentation de la dordogne*/
 .presentation{
-    padding: 148px 0px 704px 0px;
+    padding: 148px 0px 7704px 0px;
 }
 
 .h2-presentation {
@@ -149,8 +146,6 @@ header {
     width: 581px;
     margin-top: 24px;
 }
-
-
 
 #swimming-pool-img{
     position: absolute;
@@ -168,7 +163,7 @@ header {
     top: 1048px;
 }
 
-.p-presentation{
+#p-presentation{
     position: absolute;
     width: 351px;
     height: 75px;
@@ -181,3 +176,263 @@ header {
     font-size: 20px;
     line-height: 27px;
 }
+
+
+/* ----------------- Offer slider start -------------*/
+
+#h2-offer{
+    z-index: 1;
+
+    position: absolute;
+    width: 484px;
+    height: 60px;
+    left: 136px;
+    top: 1843px;
+}
+#p-offer{
+    position: absolute;
+    width: 400px;
+    height: 137px;
+    left: 178px;
+    top: 1984px;
+}
+#dining-room-img{
+    position: absolute;
+    width: 718px;
+    height: 500px;
+    left: 626px;
+    top: 1782px;
+}
+#information-button{
+    position: absolute;
+    left: 1024px;
+    top: 2210px;
+}
+
+/*--- circle button ---*/
+.circle-button #circle{
+    background-color: #5E565A;
+}
+.circle-button:hover #circle{
+    background-color: #655D61;
+}
+#circle {
+    z-index: 1;
+
+    position: absolute;
+    left: 1320px;
+    top: 2000px;
+
+    width: 64px;
+    height: 64px;
+    border-radius: 40px;
+}
+#arrow-right{
+    z-index: 2;
+    position: absolute;
+    left: 1337px;
+    top: 2016px;
+}
+/*--- circle button ---*/
+/* ----------------- Offer slider end ------------- */
+
+
+/* ----------------- Activities presentation start ------------- */
+.h3-activitie{
+    z-index: 1;
+    position: absolute;
+    left: 732px;
+}
+#h3-activitie-1{
+    top: 2558px;
+}
+#h3-activitie-2{
+    top: 3234px;
+}
+#h3-activitie-3{
+    top: 3910px;
+}
+#h3-activitie-4{
+    top: 4586px;
+}
+
+.img-activitie{
+    position: absolute;
+    left: 152px;
+}
+#img-activitie-1{
+    top: 2534px;
+}
+#img-activitie-2{
+    top: 3210px;
+}
+#img-activitie-3{
+    top: 3886px;
+}
+#img-activitie-4{
+    top: 4562px;
+}
+
+.p-activitie{
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 36px;
+    color: #1D1D1F;
+
+    position: absolute;
+    max-width: 463px;
+    left: 880px;
+}
+#p-activitie-1{
+    top: 2666px;
+}
+#p-activitie-2{
+    top: 3342px;
+}
+#p-activitie-3{
+    top: 4018px;
+}
+#p-activitie-4{
+    top: 4694px;
+}
+
+#discover-activitie-1{
+    position: absolute;
+    left: 880px;
+    top: 2917px;
+}
+#discover-activitie-2{
+    position: absolute;
+    left: 880px;
+    top: 3593px;
+}
+#discover-activitie-3{
+    position: absolute;
+    left: 880px;
+    top: 4269px;
+}
+#discover-activitie-4{
+    position: absolute;
+    left: 880px;
+    top: 4945px;
+}
+
+/* ----------------- Activities presentation end ------------- */
+
+/* ----------------- Map start ------------- */
+
+#h2-maps{
+    position:absolute;
+    left: 131px;
+    top: 5286px;
+}
+#maps{
+    position: absolute;
+    width: 1177px;
+    height: 601px;
+    left: 131px;
+    top: 5390px;
+    border-radius: 6px;
+}
+
+/* ----------------- Map end ------------- */
+
+/* ----------------- Opinion start ------------- */
+/* Opinion title*/
+#h3-opinion{
+    position: absolute;
+    left: 96px;
+    top: 6147px;
+}
+
+#know-more{
+    position: absolute;
+    left: 1222px;
+    top: 6152px;
+
+    color:#1D1D1F;
+}
+
+/* Opinion texte*/
+.opinion-title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+}
+.opinion-caption{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+}
+.opinion-p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    max-width: 366px;
+}
+
+/* Opinion card disposition*/
+.title-name{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+}
+.title-name-date{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 137px;
+}
+.title-name-date-p{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 11px;
+}
+.opinion{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 17px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+}
+.opinion-stars{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+
+    width: 240px;
+    height: 40px;
+}
+
+/* Differents opinion*/
+#opinion-1{
+    position: absolute;
+    left: 96px;
+    top: 6235px;  
+}
+#opinion-2{
+    position: absolute;
+    left: 520px;
+    top: 6235px;
+}
+#opinion-3{
+    position: absolute;
+    left: 944px;
+    top: 6235px;
+}
+
+/* ----------------- Opinion end ------------- */

@@ -25,7 +25,7 @@
 
     <header>
         <h1>La Dordogne comme vous ne l’avez jamais vu</h1>
-        <a class="grey-button" href="#">Découvrir</a>
+        <a class="grey-button-texte" href="#">Découvrir</a>
     </header>
 
 
@@ -35,52 +35,153 @@
             <h2 class="h2-presentation">Un refuge paisible en Dordogne</h2>
             <img id="swimming-pool-img"  src="images_homepage/swimming_pool.png" alt="Picture of the swimming_pool"> 
             <img id="living-room-img" src="images_homepage/living_room.png" alt="Picture of the living_room">
-            <p class="p-presentation">Lorem ipsum dolor sit amet consectetur. Cursus elementum eget ut in aliquam bibendum nulla cursus.</p>
+            <p id="p-presentation">Lorem ipsum dolor sit amet consectetur. Cursus elementum eget ut in aliquam bibendum nulla cursus.</p>
         </div>
 
         <div class="offer">
         <!--Offres de gites-->
-            <h2 class="h2-offer">Nos trois gîtes disponibles</h2>
-            <p>Lorem ipsum dolor sit amet consectetur. Cursus elementum eget ut in aliquam bibendum nulla cursus. Sem ornare in senectus orci tincidunt. Faucibus iaculis id sit tortor nisl. </p>
-            <img src="images_homepage/dining_room.png" alt="Picture of the dining_room">
-            <input type="button" value = "Plus d'informations" >
-            <input type="button">
+            <h2 id="h2-offer">Nos trois gîtes disponibles</h2>
+            <p id="p-offer">Lorem ipsum dolor sit amet consectetur. Cursus elementum eget ut in aliquam bibendum nulla cursus. Sem ornare in senectus orci tincidunt. Faucibus iaculis id sit tortor nisl. </p>
+            <img id="dining-room-img" src="images_homepage/dining_room.png" alt="Picture of the dining_room">
+            <a class="grey-button-texte" id="information-button" href="#">Plus d'informations</a>
+            <div class="circle-button">
+                <a id="circle" href="#"></a>
+                <svg id="arrow-right" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 6L22 16L12 26" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+            </div>
         </div>
 
         <div class="activites">
         <!--Les activitées-->
             <div class="acitivitie-1">
-                <h3>Saint-Émilion</h3>
-                <img src="images_homepage/st_emilion.png" alt="Picture of Saint-Émilion">
-                <p>Découvrez le village de Saint-Émilion et ses délicieux vins, Nulla sagittis porta sagittis. Aliquam quis accumsan libero, non tristique ante. Sed congue augue nibh, sit amet pharetra lacus viverra sit amet.</p>
-                <input type="button" value="Découvrir">
+                <h3 class="h3-activitie" id="h3-activitie-1">Saint-Émilion</h3>
+                <img class="img-activitie" id="img-activitie-1" src="images_homepage/st_emilion.png" alt="Picture of Saint-Émilion">
+                <p class="p-activitie" id="p-activitie-1">Découvrez le village de Saint-Émilion et ses délicieux vins, Nulla sagittis porta sagittis. Aliquam quis accumsan libero, non tristique ante. Sed congue augue nibh, sit amet pharetra lacus viverra sit amet.</p>
+                <a class="grey-button-texte" id="discover-activitie-1" href="#">Découvrir</a>
             </div>
 
             <div class="acitivitie-2"> 
-                <h3>Château de montaigne</h3>
-                <img src="images_homepage/castle.png" alt="Picture of montaigne's castle">
-                <p>Découvrez le village de Saint-Émilion et ses délicieux vins, Nulla sagittis porta sagittis. Aliquam quis accumsan libero, non tristique ante. Sed congue augue nibh, sit amet pharetra lacus viverra sit amet.</p>
-                <input type="button" value="Découvrir">
+                <h3 class="h3-activitie" id="h3-activitie-2">Château de montaigne</h3>
+                <img class="img-activitie" id="img-activitie-2" src="images_homepage/castle.png" alt="Picture of montaigne's castle">
+                <p class="p-activitie" id="p-activitie-2">Découvrez le village de Saint-Émilion et ses délicieux vins, Nulla sagittis porta sagittis. Aliquam quis accumsan libero, non tristique ante. Sed congue augue nibh, sit amet pharetra lacus viverra sit amet.</p>
+                <a class="grey-button-texte" id="discover-activitie-2" href="#">Découvrir</a>
             </div>
 
             <div class="acitivitie-3">
-                <h3>Bataille de Castillon</h3>
-                <img src="images_homepage/castillon.png" alt="Picture of the famous Castillon's battle">
-                <p>Découvrez le village de Saint-Émilion et ses délicieux vins, Nulla sagittis porta sagittis. Aliquam quis accumsan libero, non tristique ante. Sed congue augue nibh, sit amet pharetra lacus viverra sit amet.</p>
-                <input type="button" value="Découvrir">
+                <h3 class="h3-activitie" id="h3-activitie-3">Bataille de Castillon</h3>
+                <img class="img-activitie" id="img-activitie-3" src="images_homepage/castillon.png" alt="Picture of the famous Castillon's battle">
+                <p class="p-activitie" id="p-activitie-3">Découvrez le village de Saint-Émilion et ses délicieux vins, Nulla sagittis porta sagittis. Aliquam quis accumsan libero, non tristique ante. Sed congue augue nibh, sit amet pharetra lacus viverra sit amet.</p>
+                <a class="grey-button-texte" id="discover-activitie-3" href="#">Découvrir</a>
             </div>
 
             <div class="acitivitie-4">
-                <h3>L’Ardoise restaurant</h3>
-                <img src="images_homepage/lardoise.png" alt="Picture of L’Ardoise restaurant">
-                <p>Découvrez le village de Saint-Émilion et ses délicieux vins, Nulla sagittis porta sagittis. Aliquam quis accumsan libero, non tristique ante. Sed congue augue nibh, sit amet pharetra lacus viverra sit amet.</p>
-                <input type="button" value="Découvrir">
+                <h3 class="h3-activitie" id="h3-activitie-4">L’Ardoise restaurant</h3>
+                <img class="img-activitie" id="img-activitie-4" src="images_homepage/lardoise.png" alt="Picture of L’Ardoise restaurant">
+                <p class="p-activitie" id="p-activitie-4">Découvrez le village de Saint-Émilion et ses délicieux vins, Nulla sagittis porta sagittis. Aliquam quis accumsan libero, non tristique ante. Sed congue augue nibh, sit amet pharetra lacus viverra sit amet.</p>
+                <a class="grey-button-texte" id="discover-activitie-4" href="#">Découvrir</a>
             </div>
 
         </div>
 
-        <h1>THE MAP</h1>
-        <br>
+
+        <!--Map google maps-->
+        <h2 id="h2-maps">À deux pas de la Dordogne</h2>
+        <iframe id="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2829.736122989968!2d0.05985701544522216!3d44.82694018375832!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12aaa66e9eeca021%3A0x1ac0fbaef5ecf326!2s50%20Rte%20de%20Prats%2C%2024230%20Saint-Seurin-de-Prats!5e0!3m2!1sfr!2sfr!4v1678632103993!5m2!1sfr!2sfr" 
+       style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        <!--Opinion-->
+        <h3 id="h3-opinion">Ce qu’ils ont pensé de nous</h3>
+        <a class="opinion-p" id="know-more" href="#">En savoir plus</a>
+
+        <div class="opinion" id="opinion-1">
+            <div class="title-name-date-p">
+                <div class="title-name-date">
+                    <div class="tilte-name">
+                        <p class="opinion-title" >Lovely place</p>
+                        <p class="opinion-caption" >A. Andurand</p>
+                    </div>
+                <p class="opinion-caption" >01 jan. 2022</p>
+                </div>
+            <p class="opinion-p">J’ai adoré, un endroit incroyable paisible riche et pleins de bons vins pour boire la bonne vinasse du pays alala sooooo good.</p>
+            </div>
+            <div class="opinion-stars">
+                <svg width="34" height="33" viewBox="0 0 34 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M16.0483 0.951057C16.3463 0.0269735 17.6537 0.0269718 17.9517 0.951055L21.2431 11.1568C21.3766 11.5707 21.7622 11.8508 22.1971 11.8499L32.9204 11.8264C33.8914 11.8243 34.2954 13.0677 33.5086 13.6367L24.8195 19.9208C24.4671 20.1756 24.3198 20.6289 24.4551 21.0422L27.7911 31.2335C28.0931 32.1562 27.0354 32.9247 26.2512 32.3523L17.5896 26.0303C17.2383 25.7739 16.7617 25.7739 16.4104 26.0303L7.74885 32.3523C6.96458 32.9247 5.90686 32.1562 6.20892 31.2335L9.54491 21.0422C9.68018 20.6289 9.53289 20.1756 9.18054 19.9208L0.49139 13.6367C-0.295371 13.0677 0.108641 11.8243 1.07959 11.8264L11.8029 11.8499C12.2378 11.8508 12.6234 11.5707 12.7569 11.1568L16.0483 0.951057Z" fill="#015D97"/>
+                    </svg>
+                <svg width="34" height="33" viewBox="0 0 34 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M16.0483 0.951057C16.3463 0.0269735 17.6537 0.0269718 17.9517 0.951055L21.2431 11.1568C21.3766 11.5707 21.7622 11.8508 22.1971 11.8499L32.9204 11.8264C33.8914 11.8243 34.2954 13.0677 33.5086 13.6367L24.8195 19.9208C24.4671 20.1756 24.3198 20.6289 24.4551 21.0422L27.7911 31.2335C28.0931 32.1562 27.0354 32.9247 26.2512 32.3523L17.5896 26.0303C17.2383 25.7739 16.7617 25.7739 16.4104 26.0303L7.74885 32.3523C6.96458 32.9247 5.90686 32.1562 6.20892 31.2335L9.54491 21.0422C9.68018 20.6289 9.53289 20.1756 9.18054 19.9208L0.49139 13.6367C-0.295371 13.0677 0.108641 11.8243 1.07959 11.8264L11.8029 11.8499C12.2378 11.8508 12.6234 11.5707 12.7569 11.1568L16.0483 0.951057Z" fill="#015D97"/>
+                    </svg>
+                <svg width="34" height="33" viewBox="0 0 34 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M16.0483 0.951057C16.3463 0.0269735 17.6537 0.0269718 17.9517 0.951055L21.2431 11.1568C21.3766 11.5707 21.7622 11.8508 22.1971 11.8499L32.9204 11.8264C33.8914 11.8243 34.2954 13.0677 33.5086 13.6367L24.8195 19.9208C24.4671 20.1756 24.3198 20.6289 24.4551 21.0422L27.7911 31.2335C28.0931 32.1562 27.0354 32.9247 26.2512 32.3523L17.5896 26.0303C17.2383 25.7739 16.7617 25.7739 16.4104 26.0303L7.74885 32.3523C6.96458 32.9247 5.90686 32.1562 6.20892 31.2335L9.54491 21.0422C9.68018 20.6289 9.53289 20.1756 9.18054 19.9208L0.49139 13.6367C-0.295371 13.0677 0.108641 11.8243 1.07959 11.8264L11.8029 11.8499C12.2378 11.8508 12.6234 11.5707 12.7569 11.1568L16.0483 0.951057Z" fill="#015D97"/>
+                    </svg>
+                <svg width="34" height="33" viewBox="0 0 34 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M16.0483 0.951057C16.3463 0.0269735 17.6537 0.0269718 17.9517 0.951055L21.2431 11.1568C21.3766 11.5707 21.7622 11.8508 22.1971 11.8499L32.9204 11.8264C33.8914 11.8243 34.2954 13.0677 33.5086 13.6367L24.8195 19.9208C24.4671 20.1756 24.3198 20.6289 24.4551 21.0422L27.7911 31.2335C28.0931 32.1562 27.0354 32.9247 26.2512 32.3523L17.5896 26.0303C17.2383 25.7739 16.7617 25.7739 16.4104 26.0303L7.74885 32.3523C6.96458 32.9247 5.90686 32.1562 6.20892 31.2335L9.54491 21.0422C9.68018 20.6289 9.53289 20.1756 9.18054 19.9208L0.49139 13.6367C-0.295371 13.0677 0.108641 11.8243 1.07959 11.8264L11.8029 11.8499C12.2378 11.8508 12.6234 11.5707 12.7569 11.1568L16.0483 0.951057Z" fill="#015D97"/>
+                    </svg>
+                <svg width="34" height="33" viewBox="0 0 34 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M16.0483 0.951057C16.3463 0.0269735 17.6537 0.0269718 17.9517 0.951055L21.2431 11.1568C21.3766 11.5707 21.7622 11.8508 22.1971 11.8499L32.9204 11.8264C33.8914 11.8243 34.2954 13.0677 33.5086 13.6367L24.8195 19.9208C24.4671 20.1756 24.3198 20.6289 24.4551 21.0422L27.7911 31.2335C28.0931 32.1562 27.0354 32.9247 26.2512 32.3523L17.5896 26.0303C17.2383 25.7739 16.7617 25.7739 16.4104 26.0303L7.74885 32.3523C6.96458 32.9247 5.90686 32.1562 6.20892 31.2335L9.54491 21.0422C9.68018 20.6289 9.53289 20.1756 9.18054 19.9208L0.49139 13.6367C-0.295371 13.0677 0.108641 11.8243 1.07959 11.8264L11.8029 11.8499C12.2378 11.8508 12.6234 11.5707 12.7569 11.1568L16.0483 0.951057Z" fill="#015D97"/>
+                    </svg>
+            </div>
+        </div>
+        <div class="opinion" id="opinion-2">
+            <div class="title-name-date-p">
+                <div class="title-name-date">
+                    <div class="tilte-name">
+                        <p class="opinion-title" >Lovely place</p>
+                        <p class="opinion-caption" >A. Andurand</p>
+                    </div>
+                <p class="opinion-caption" >01 jan. 2022</p>
+                </div>
+            <p class="opinion-p">J’ai adoré, un endroit incroyable paisible riche et pleins de bons vins pour boire la bonne vinasse du pays alala sooooo good.</p>
+            </div>
+            <div class="opinion-stars">
+                <svg width="34" height="33" viewBox="0 0 34 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M16.0483 0.951057C16.3463 0.0269735 17.6537 0.0269718 17.9517 0.951055L21.2431 11.1568C21.3766 11.5707 21.7622 11.8508 22.1971 11.8499L32.9204 11.8264C33.8914 11.8243 34.2954 13.0677 33.5086 13.6367L24.8195 19.9208C24.4671 20.1756 24.3198 20.6289 24.4551 21.0422L27.7911 31.2335C28.0931 32.1562 27.0354 32.9247 26.2512 32.3523L17.5896 26.0303C17.2383 25.7739 16.7617 25.7739 16.4104 26.0303L7.74885 32.3523C6.96458 32.9247 5.90686 32.1562 6.20892 31.2335L9.54491 21.0422C9.68018 20.6289 9.53289 20.1756 9.18054 19.9208L0.49139 13.6367C-0.295371 13.0677 0.108641 11.8243 1.07959 11.8264L11.8029 11.8499C12.2378 11.8508 12.6234 11.5707 12.7569 11.1568L16.0483 0.951057Z" fill="#015D97"/>
+                    </svg>
+                <svg width="34" height="33" viewBox="0 0 34 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M16.0483 0.951057C16.3463 0.0269735 17.6537 0.0269718 17.9517 0.951055L21.2431 11.1568C21.3766 11.5707 21.7622 11.8508 22.1971 11.8499L32.9204 11.8264C33.8914 11.8243 34.2954 13.0677 33.5086 13.6367L24.8195 19.9208C24.4671 20.1756 24.3198 20.6289 24.4551 21.0422L27.7911 31.2335C28.0931 32.1562 27.0354 32.9247 26.2512 32.3523L17.5896 26.0303C17.2383 25.7739 16.7617 25.7739 16.4104 26.0303L7.74885 32.3523C6.96458 32.9247 5.90686 32.1562 6.20892 31.2335L9.54491 21.0422C9.68018 20.6289 9.53289 20.1756 9.18054 19.9208L0.49139 13.6367C-0.295371 13.0677 0.108641 11.8243 1.07959 11.8264L11.8029 11.8499C12.2378 11.8508 12.6234 11.5707 12.7569 11.1568L16.0483 0.951057Z" fill="#015D97"/>
+                    </svg>
+                <svg width="34" height="33" viewBox="0 0 34 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M16.0483 0.951057C16.3463 0.0269735 17.6537 0.0269718 17.9517 0.951055L21.2431 11.1568C21.3766 11.5707 21.7622 11.8508 22.1971 11.8499L32.9204 11.8264C33.8914 11.8243 34.2954 13.0677 33.5086 13.6367L24.8195 19.9208C24.4671 20.1756 24.3198 20.6289 24.4551 21.0422L27.7911 31.2335C28.0931 32.1562 27.0354 32.9247 26.2512 32.3523L17.5896 26.0303C17.2383 25.7739 16.7617 25.7739 16.4104 26.0303L7.74885 32.3523C6.96458 32.9247 5.90686 32.1562 6.20892 31.2335L9.54491 21.0422C9.68018 20.6289 9.53289 20.1756 9.18054 19.9208L0.49139 13.6367C-0.295371 13.0677 0.108641 11.8243 1.07959 11.8264L11.8029 11.8499C12.2378 11.8508 12.6234 11.5707 12.7569 11.1568L16.0483 0.951057Z" fill="#015D97"/>
+                    </svg>
+                <svg width="34" height="33" viewBox="0 0 34 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M16.0483 0.951057C16.3463 0.0269735 17.6537 0.0269718 17.9517 0.951055L21.2431 11.1568C21.3766 11.5707 21.7622 11.8508 22.1971 11.8499L32.9204 11.8264C33.8914 11.8243 34.2954 13.0677 33.5086 13.6367L24.8195 19.9208C24.4671 20.1756 24.3198 20.6289 24.4551 21.0422L27.7911 31.2335C28.0931 32.1562 27.0354 32.9247 26.2512 32.3523L17.5896 26.0303C17.2383 25.7739 16.7617 25.7739 16.4104 26.0303L7.74885 32.3523C6.96458 32.9247 5.90686 32.1562 6.20892 31.2335L9.54491 21.0422C9.68018 20.6289 9.53289 20.1756 9.18054 19.9208L0.49139 13.6367C-0.295371 13.0677 0.108641 11.8243 1.07959 11.8264L11.8029 11.8499C12.2378 11.8508 12.6234 11.5707 12.7569 11.1568L16.0483 0.951057Z" fill="#015D97"/>
+                    </svg>
+                <svg width="34" height="33" viewBox="0 0 34 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M16.5241 1.10453C16.6731 0.642482 17.3269 0.642484 17.4759 1.10452L20.7673 11.3103C20.9675 11.9311 21.5459 12.3513 22.1981 12.3499L32.9215 12.3264C33.407 12.3254 33.609 12.9471 33.2156 13.2316L24.5264 19.5157C23.9979 19.8979 23.777 20.5779 23.9799 21.1977L27.3159 31.389C27.4669 31.8504 26.9381 32.2346 26.5459 31.9484L17.8843 25.6264C17.3575 25.2419 16.6425 25.2419 16.1157 25.6264L7.45407 31.9484C7.06194 32.2346 6.53308 31.8504 6.6841 31.389L10.0201 21.1977C10.223 20.5779 10.0021 19.8979 9.47355 19.5157L0.784398 13.2316C0.391016 12.9471 0.593025 12.3254 1.0785 12.3264L11.8019 12.3499C12.4541 12.3513 13.0325 11.9311 13.2327 11.3103L16.5241 1.10453Z" stroke="#015D97"/>
+                    </svg>
+            </div>
+        </div>
+        <div class="opinion" id="opinion-3">
+            <div class="title-name-date-p">
+                <div class="title-name-date">
+                    <div class="tilte-name">
+                        <p class="opinion-title" >Lovely place</p>
+                        <p class="opinion-caption" >A. Andurand</p>
+                    </div>
+                <p class="opinion-caption" >01 jan. 2022</p>
+                </div>
+            <p class="opinion-p">J’ai adoré, un endroit incroyable paisible riche et pleins de bons vins pour boire la bonne vinasse du pays alala sooooo good.</p>
+            </div>
+            <div class="opinion-stars">
+                <svg width="34" height="33" viewBox="0 0 34 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M16.0483 0.951057C16.3463 0.0269735 17.6537 0.0269718 17.9517 0.951055L21.2431 11.1568C21.3766 11.5707 21.7622 11.8508 22.1971 11.8499L32.9204 11.8264C33.8914 11.8243 34.2954 13.0677 33.5086 13.6367L24.8195 19.9208C24.4671 20.1756 24.3198 20.6289 24.4551 21.0422L27.7911 31.2335C28.0931 32.1562 27.0354 32.9247 26.2512 32.3523L17.5896 26.0303C17.2383 25.7739 16.7617 25.7739 16.4104 26.0303L7.74885 32.3523C6.96458 32.9247 5.90686 32.1562 6.20892 31.2335L9.54491 21.0422C9.68018 20.6289 9.53289 20.1756 9.18054 19.9208L0.49139 13.6367C-0.295371 13.0677 0.108641 11.8243 1.07959 11.8264L11.8029 11.8499C12.2378 11.8508 12.6234 11.5707 12.7569 11.1568L16.0483 0.951057Z" fill="#015D97"/>
+                    </svg>
+                <svg width="34" height="33" viewBox="0 0 34 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M16.0483 0.951057C16.3463 0.0269735 17.6537 0.0269718 17.9517 0.951055L21.2431 11.1568C21.3766 11.5707 21.7622 11.8508 22.1971 11.8499L32.9204 11.8264C33.8914 11.8243 34.2954 13.0677 33.5086 13.6367L24.8195 19.9208C24.4671 20.1756 24.3198 20.6289 24.4551 21.0422L27.7911 31.2335C28.0931 32.1562 27.0354 32.9247 26.2512 32.3523L17.5896 26.0303C17.2383 25.7739 16.7617 25.7739 16.4104 26.0303L7.74885 32.3523C6.96458 32.9247 5.90686 32.1562 6.20892 31.2335L9.54491 21.0422C9.68018 20.6289 9.53289 20.1756 9.18054 19.9208L0.49139 13.6367C-0.295371 13.0677 0.108641 11.8243 1.07959 11.8264L11.8029 11.8499C12.2378 11.8508 12.6234 11.5707 12.7569 11.1568L16.0483 0.951057Z" fill="#015D97"/>
+                    </svg>
+                <svg width="34" height="33" viewBox="0 0 34 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M16.0483 0.951057C16.3463 0.0269735 17.6537 0.0269718 17.9517 0.951055L21.2431 11.1568C21.3766 11.5707 21.7622 11.8508 22.1971 11.8499L32.9204 11.8264C33.8914 11.8243 34.2954 13.0677 33.5086 13.6367L24.8195 19.9208C24.4671 20.1756 24.3198 20.6289 24.4551 21.0422L27.7911 31.2335C28.0931 32.1562 27.0354 32.9247 26.2512 32.3523L17.5896 26.0303C17.2383 25.7739 16.7617 25.7739 16.4104 26.0303L7.74885 32.3523C6.96458 32.9247 5.90686 32.1562 6.20892 31.2335L9.54491 21.0422C9.68018 20.6289 9.53289 20.1756 9.18054 19.9208L0.49139 13.6367C-0.295371 13.0677 0.108641 11.8243 1.07959 11.8264L11.8029 11.8499C12.2378 11.8508 12.6234 11.5707 12.7569 11.1568L16.0483 0.951057Z" fill="#015D97"/>
+                    </svg>
+                <svg width="34" height="33" viewBox="0 0 34 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M16.0483 0.951057C16.3463 0.0269735 17.6537 0.0269718 17.9517 0.951055L21.2431 11.1568C21.3766 11.5707 21.7622 11.8508 22.1971 11.8499L32.9204 11.8264C33.8914 11.8243 34.2954 13.0677 33.5086 13.6367L24.8195 19.9208C24.4671 20.1756 24.3198 20.6289 24.4551 21.0422L27.7911 31.2335C28.0931 32.1562 27.0354 32.9247 26.2512 32.3523L17.5896 26.0303C17.2383 25.7739 16.7617 25.7739 16.4104 26.0303L7.74885 32.3523C6.96458 32.9247 5.90686 32.1562 6.20892 31.2335L9.54491 21.0422C9.68018 20.6289 9.53289 20.1756 9.18054 19.9208L0.49139 13.6367C-0.295371 13.0677 0.108641 11.8243 1.07959 11.8264L11.8029 11.8499C12.2378 11.8508 12.6234 11.5707 12.7569 11.1568L16.0483 0.951057Z" fill="#015D97"/>
+                    </svg>
+                <svg width="34" height="33" viewBox="0 0 34 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M16.0483 0.951057C16.3463 0.0269735 17.6537 0.0269718 17.9517 0.951055L21.2431 11.1568C21.3766 11.5707 21.7622 11.8508 22.1971 11.8499L32.9204 11.8264C33.8914 11.8243 34.2954 13.0677 33.5086 13.6367L24.8195 19.9208C24.4671 20.1756 24.3198 20.6289 24.4551 21.0422L27.7911 31.2335C28.0931 32.1562 27.0354 32.9247 26.2512 32.3523L17.5896 26.0303C17.2383 25.7739 16.7617 25.7739 16.4104 26.0303L7.74885 32.3523C6.96458 32.9247 5.90686 32.1562 6.20892 31.2335L9.54491 21.0422C9.68018 20.6289 9.53289 20.1756 9.18054 19.9208L0.49139 13.6367C-0.295371 13.0677 0.108641 11.8243 1.07959 11.8264L11.8029 11.8499C12.2378 11.8508 12.6234 11.5707 12.7569 11.1568L16.0483 0.951057Z" fill="#015D97"/>
+                    </svg>
+            </div>
+        </div>
+
     </div>  
 
     
