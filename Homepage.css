@@ -10,7 +10,12 @@ body{
     font-family: "Satoshi";
     color: #1D1D1F;
 }
-
+.entire-page{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+}
 img{
     border-radius: 6px;
 }
@@ -93,7 +98,6 @@ h1{
 
     max-width: 813px;
 }
-
 h2{
     font-family: 'Orbikular';
     font-style: normal;
@@ -107,7 +111,6 @@ h2{
     color: white;
     background-color: #5E565A;
 }
-
 h3{
     font-family: 'Orbikular';
     font-style: normal;
@@ -123,13 +126,27 @@ h3{
 }
 /* Titles-End */
 
-
+.header-page{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 148px;
+}
 header {
-    padding-left: 202px;
-    padding-right: 426px;
-    padding-top: 449px;
-    padding-bottom: 228px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
     background-image: url(images_homepage/homepage.png);
+}
+
+.header-title-button{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 366px 426px 228px 202px;
+    gap: 32px;
 }
 
 /*Présentation de la dordogne*/
@@ -138,76 +155,103 @@ header {
 }
 
 .h2-presentation {
-    position: absolute;
-
-    z-index: 1;
-    left: 96px;
-    top: 1072px;    
+    z-index: 1; 
     width: 581px;
     margin-top: 24px;
 }
 
 #swimming-pool-img{
-    position: absolute;
     width: 506px;
     height: 270px;
-    left: 96px;
-    top: 1188px;
+
 }
 
 #living-room-img{
-    position: absolute;
     width: 718px;
     height: 530px;
-    left: 626px;
-    top: 1048px;
 }
-
 #p-presentation{
-    position: absolute;
     width: 351px;
     height: 75px;
-    left: 156px;
-    top: 1494px;
-
-    font-family: 'Satoshi';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 27px;
+    
+    margin: 0px 0px 9px 60px;
 }
 
+.presentation-title-img{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 36px;
+}
+.presentation-title-img-p{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 129px;
+    gap: 36px;
+    margin: 0px -129px;
+    z-index: 1;
+}
+.presentation{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+}
 
 /* ----------------- Offer slider start -------------*/
 
-#h2-offer{
-    z-index: 1;
-
-    position: absolute;
-    width: 484px;
-    height: 60px;
-    left: 136px;
-    top: 1843px;
-}
 #p-offer{
-    position: absolute;
-    width: 400px;
-    height: 137px;
-    left: 178px;
-    top: 1984px;
+    max-width: 400px;
+    margin: 0px 0px 0px 82px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+
+    color: #1D1D1F;
+}
+#h2-offer{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 51px 0px 0px;
+    width: 564px;
 }
 #dining-room-img{
-    position: absolute;
     width: 718px;
     height: 500px;
-    left: 626px;
-    top: 1782px;
+    margin: 0px -346px;
+
+}
+.offer-img-button{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
 }
 #information-button{
-    position: absolute;
-    left: 1024px;
-    top: 2210px;
+    margin: 0px 24px 24px 0px ;
 }
+.offer-title-p{
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 71px;
+}
+.offer-title-img{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 230px;
+}
+
 
 /*--- circle button ---*/
 .circle-button #circle{
@@ -217,62 +261,58 @@ header {
     background-color: #655D61;
 }
 #circle {
-    z-index: 1;
-
-    position: absolute;
-    left: 1320px;
-    top: 2000px;
-
     width: 64px;
     height: 64px;
     border-radius: 40px;
 }
 #arrow-right{
-    z-index: 2;
-    position: absolute;
-    left: 1337px;
-    top: 2016px;
+    margin:-46px;
+}
+.circle-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 /*--- circle button ---*/
+.offer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+}
+
 /* ----------------- Offer slider end ------------- */
 
 
 /* ----------------- Activities presentation start ------------- */
+.img-activitie{
+    width: 680px;
+    height: 520px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px -100px;
+
+}
 .h3-activitie{
-    z-index: 1;
-    position: absolute;
-    left: 732px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
 }
 #h3-activitie-1{
-    top: 2558px;
+    margin: 24px 329px 0px 0px;
 }
 #h3-activitie-2{
-    top: 3234px;
+    margin: 24px 200px 0px 0px;
 }
 #h3-activitie-3{
-    top: 3910px;
+    margin: 24px 241px 0px 0px;
 }
 #h3-activitie-4{
-    top: 4586px;
+    margin: 24px 232px 0px 0px;
 }
-
-.img-activitie{
-    position: absolute;
-    left: 152px;
-}
-#img-activitie-1{
-    top: 2534px;
-}
-#img-activitie-2{
-    top: 3210px;
-}
-#img-activitie-3{
-    top: 3886px;
-}
-#img-activitie-4{
-    top: 4562px;
-}
-
 .p-activitie{
     font-family: 'Satoshi';
     font-style: normal;
@@ -281,59 +321,55 @@ header {
     line-height: 36px;
     color: #1D1D1F;
 
-    position: absolute;
     max-width: 463px;
-    left: 880px;
 }
-#p-activitie-1{
-    top: 2666px;
+.activitie-p-button{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 48px 0px 0px;
+    gap: 32px;
 }
-#p-activitie-2{
-    top: 3342px;
+.activitie-title{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
 }
-#p-activitie-3{
-    top: 4018px;
+.activitie-title-p-button{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
 }
-#p-activitie-4{
-    top: 4694px;
+.activitie-image-other{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+
 }
 
-#discover-activitie-1{
-    position: absolute;
-    left: 880px;
-    top: 2917px;
-}
-#discover-activitie-2{
-    position: absolute;
-    left: 880px;
-    top: 3593px;
-}
-#discover-activitie-3{
-    position: absolute;
-    left: 880px;
-    top: 4269px;
-}
-#discover-activitie-4{
-    position: absolute;
-    left: 880px;
-    top: 4945px;
+.activities{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 152px;
+    gap: 156px;
 }
 
 /* ----------------- Activities presentation end ------------- */
 
 /* ----------------- Map start ------------- */
-
-#h2-maps{
-    position:absolute;
-    left: 131px;
-    top: 5286px;
+.map{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
 }
 #maps{
-    position: absolute;
     width: 1177px;
     height: 601px;
-    left: 131px;
-    top: 5390px;
     border-radius: 6px;
 }
 
@@ -341,18 +377,15 @@ header {
 
 /* ----------------- Opinion start ------------- */
 /* Opinion title*/
-#h3-opinion{
-    position: absolute;
-    left: 96px;
-    top: 6147px;
-}
-
 #know-more{
-    position: absolute;
-    left: 1222px;
-    top: 6152px;
-
     color:#1D1D1F;
+}
+.opinion-big-title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 620px;
 }
 
 /* Opinion texte*/
@@ -397,16 +430,6 @@ header {
     padding: 0px;
     gap: 11px;
 }
-.opinion{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 17px;
-
-    background: #FFFFFF;
-    box-shadow: 0px 4px 2px rgba(0, 0, 0, 0.25);
-    border-radius: 6px;
-}
 .opinion-stars{
     display: flex;
     flex-direction: row;
@@ -417,22 +440,63 @@ header {
     width: 240px;
     height: 40px;
 }
+.opinion-card{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 17px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+}
 
 /* Differents opinion*/
-#opinion-1{
-    position: absolute;
-    left: 96px;
-    top: 6235px;  
+.opinion-cards{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
 }
-#opinion-2{
-    position: absolute;
-    left: 520px;
-    top: 6235px;
+.opinion{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
 }
-#opinion-3{
-    position: absolute;
-    left: 944px;
-    top: 6235px;
-}
-
 /* ----------------- Opinion end ------------- */
+
+/* ----------------- Map+Opinion  ------------- */
+.map-opinion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 156px;
+}
+/* ----------------- Map+Opinion+Activities  ------------- */
+.acitivities-map-opinion{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 204px;
+}
+/* ----------------- Presentation+offer  ------------- */
+.presentation-offer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 204px;
+}
+/*-----presentation-offer-acacitivities-map-opinion-----*/
+.presentation-offer-acacitivities-map-opinion{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px 56px 0px 96px;
+    gap: 252px;
+}
