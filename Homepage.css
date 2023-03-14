@@ -8,8 +8,14 @@
 
 body{
     font-family: "Satoshi";
+    color: #1D1D1F;
 }
-
+.entire-page{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+}
 img{
     border-radius: 6px;
 }
@@ -22,12 +28,11 @@ img{
     background-color: #015D97;
     border-radius: 6px;
 }
-
 .blue-button:hover{
     background-color: #0566A4;
 }
 
-.grey-button{
+.grey-button-texte{
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
@@ -40,8 +45,7 @@ img{
     border: none;
     border-radius: 6px;
 }
-
-.grey-button:hover{
+.grey-button-texte:hover{
     background-color: #655D61;
 }
 /*Button-hover*/
@@ -61,15 +65,12 @@ img{
     width: 100%;
     
     box-sizing: border-box;
-    background-color: white;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .navbar .nav-links ul {
     display: flex;
-}
-
-.navbar .nav-links ul li{
-    margin: 0 48px;
 }
 
 .navbar a{
@@ -80,6 +81,7 @@ img{
 
 .contact{
     color:#1D1D1F;
+    margin-right: 48px;
 }
 
 /* Navbar-End */
@@ -96,7 +98,6 @@ h1{
 
     max-width: 813px;
 }
-
 h2{
     font-family: 'Orbikular';
     font-style: normal;
@@ -105,79 +106,397 @@ h2{
     line-height: 60px;
 
     padding: 10px 40px 10px 40px;
-
     border-radius: 6px;
 
     color: white;
     background-color: #5E565A;
 }
-
 h3{
     font-family: 'Orbikular';
     font-style: normal;
     font-weight: 600;
     font-size: 32px;
     line-height: 48px;
+    
+    padding: 6px 40px 6px 40px;
+    border-radius: 6px;
+
+    color: white;
+    background-color: #5E565A;
 }
 /* Titles-End */
 
-
+.header-page{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 148px;
+}
 header {
-    padding-left: 202px;
-    padding-right: 426px;
-    padding-top: 449px;
-    padding-bottom: 228px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
     background-image: url(images_homepage/homepage.png);
 }
 
-.after-header{
-    padding-left: 96px;
-    padding-right: 96px;
+.header-title-button{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 366px 426px 228px 202px;
+    gap: 32px;
 }
 
 /*Présentation de la dordogne*/
 .presentation{
-    padding: 148px 0px 704px 0px;
+    padding: 148px 0px 7704px 0px;
 }
 
 .h2-presentation {
-    position: absolute;
-
-    z-index: 1;
-    left: 96px;
-    top: 1072px;    
+    z-index: 1; 
     width: 581px;
     margin-top: 24px;
 }
 
-
-
 #swimming-pool-img{
-    position: absolute;
     width: 506px;
     height: 270px;
-    left: 96px;
-    top: 1188px;
+
 }
 
 #living-room-img{
-    position: absolute;
     width: 718px;
     height: 530px;
-    left: 626px;
-    top: 1048px;
 }
-
-.p-presentation{
-    position: absolute;
+#p-presentation{
     width: 351px;
     height: 75px;
-    left: 156px;
-    top: 1494px;
-
-    font-family: 'Satoshi';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 27px;
+    
+    margin: 0px 0px 9px 60px;
+}
+
+.presentation-title-img{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 36px;
+}
+.presentation-title-img-p{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 129px;
+    gap: 36px;
+    margin: 0px -129px;
+    z-index: 1;
+}
+.presentation{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+}
+
+/* ----------------- Offer slider start -------------*/
+
+#p-offer{
+    max-width: 400px;
+    margin: 0px 0px 0px 82px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+
+    color: #1D1D1F;
+}
+#h2-offer{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 51px 0px 0px;
+    width: 564px;
+}
+#dining-room-img{
+    width: 718px;
+    height: 500px;
+    margin: 0px -346px;
+
+}
+.offer-img-button{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+#information-button{
+    margin: 0px 24px 24px 0px ;
+}
+.offer-title-p{
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 71px;
+}
+.offer-title-img{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 230px;
+}
+
+
+/*--- circle button ---*/
+.circle-button #circle{
+    background-color: #5E565A;
+}
+.circle-button:hover #circle{
+    background-color: #655D61;
+}
+#circle {
+    width: 64px;
+    height: 64px;
+    border-radius: 40px;
+}
+#arrow-right{
+    margin:-46px;
+}
+.circle-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+/*--- circle button ---*/
+.offer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+}
+
+/* ----------------- Offer slider end ------------- */
+
+
+/* ----------------- Activities presentation start ------------- */
+.img-activitie{
+    width: 680px;
+    height: 520px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px -100px;
+
+}
+.h3-activitie{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+#h3-activitie-1{
+    margin: 24px 329px 0px 0px;
+}
+#h3-activitie-2{
+    margin: 24px 200px 0px 0px;
+}
+#h3-activitie-3{
+    margin: 24px 241px 0px 0px;
+}
+#h3-activitie-4{
+    margin: 24px 232px 0px 0px;
+}
+.p-activitie{
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 36px;
+    color: #1D1D1F;
+
+    max-width: 463px;
+}
+.activitie-p-button{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 48px 0px 0px;
+    gap: 32px;
+}
+.activitie-title{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+.activitie-title-p-button{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+}
+.activitie-image-other{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+
+}
+
+.activities{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 152px;
+    gap: 156px;
+}
+
+/* ----------------- Activities presentation end ------------- */
+
+/* ----------------- Map start ------------- */
+.map{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+}
+#maps{
+    width: 1177px;
+    height: 601px;
+    border-radius: 6px;
+}
+
+/* ----------------- Map end ------------- */
+
+/* ----------------- Opinion start ------------- */
+/* Opinion title*/
+#know-more{
+    color:#1D1D1F;
+}
+.opinion-big-title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 620px;
+}
+
+/* Opinion texte*/
+.opinion-title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+}
+.opinion-caption{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+}
+.opinion-p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    max-width: 366px;
+}
+
+/* Opinion card disposition*/
+.title-name{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+}
+.title-name-date{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 137px;
+}
+.title-name-date-p{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 11px;
+}
+.opinion-stars{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+
+    width: 240px;
+    height: 40px;
+}
+.opinion-card{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 17px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+}
+
+/* Differents opinion*/
+.opinion-cards{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+}
+.opinion{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+}
+/* ----------------- Opinion end ------------- */
+
+/* ----------------- Map+Opinion  ------------- */
+.map-opinion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 156px;
+}
+/* ----------------- Map+Opinion+Activities  ------------- */
+.acitivities-map-opinion{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 204px;
+}
+/* ----------------- Presentation+offer  ------------- */
+.presentation-offer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 204px;
+}
+/*-----presentation-offer-acacitivities-map-opinion-----*/
+.presentation-offer-acacitivities-map-opinion{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px 56px 0px 96px;
+    gap: 252px;
 }
