@@ -184,7 +184,6 @@
     font-size: 26px;
     line-height: 31px;
 
-
     background: #FFFDFA;
     border-radius: 6px;
     stroke: black;
@@ -482,6 +481,21 @@
     line-height: 48px;
 }
 
+#water_describe {
+    position: absolute;
+    width: 191px;
+    height: 132px;
+    left: 130px;
+    top: 2828px;
+
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #1D1D1F;
+}
+
 #cook_title {
     position: absolute;
     width: 111px;
@@ -495,6 +509,21 @@
     font-weight: 600;
     font-size: 32px;
     line-height: 48px;
+}
+
+#cook_describe {
+    position: absolute;
+    width: 157px;
+    height: 237px;
+    left: 447px;
+    top: 2828px;
+    
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #1D1D1F;
 }
 
 #general_title {
@@ -512,6 +541,21 @@
     line-height: 48px;
 }
 
+#general_describe {
+    position: absolute;
+    width: 116px;
+    height: 132px;
+    left: 767px;
+    top: 2828px;
+
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #1D1D1F;
+}
+
 #sleep_title {
     position: absolute;
     width: 153px;
@@ -525,4 +569,155 @@
     font-weight: 600;
     font-size: 32px;
     line-height: 48px;
+}
+
+#sleep_describe {
+    position: absolute;
+    width: 116px;
+    height: 132px;
+    left: 1083px;
+    top: 2828px;
+
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #1D1D1F;
+}
+
+#check1 {
+    position: absolute;
+    width: 20px;
+    height: 27px;
+    left: 97px;
+    top: 2825px;
+}
+
+#check2 {
+    position: absolute;
+    width: 20px;
+    height: 27px;
+    left: 97px;
+    top: 2878px;
+}
+
+#check3 {
+    position: absolute;
+    width: 20px;
+    height: 27px;
+    left: 97px;
+    top: 2933px;
+}
+
+#check4 {
+    position: absolute;
+    width: 20px;
+    height: 27px;
+    left: 97px;
+    top: 2988px;
+}
+
+#check5 {
+    position: absolute;
+    width: 20px;
+    height: 27px;
+    left: 414px;
+    top: 2823px;
+}
+
+#check6 {
+    position: absolute;
+    width: 20px;
+    height: 27px;
+    left: 414px;
+    top: 2878px;
+}
+
+#check7 {
+    position: absolute;
+    width: 20px;
+    height: 27px;
+    left: 414px;
+    top: 2933px;
+}
+
+#check8 {
+    position: absolute;
+    width: 20px;
+    height: 27px;
+    left: 414px;
+    top: 3015px;
+}
+
+#check9 {
+    position: absolute;
+    width: 20px;
+    height: 27px;
+    left: 414px;
+    top: 3068px;
+}
+
+#check10 {
+    position: absolute;
+    width: 20px;
+    height: 27px;
+    left: 414px;
+    top: 3123px;
+}
+
+#check11 {
+    position: absolute;
+    width: 20px;
+    height: 27px;
+    left: 734px;
+    top: 2825px;
+}
+
+#check12 {
+    position: absolute;
+    width: 20px;
+    height: 27px;
+    left: 734px;
+    top: 2878px;
+}
+
+#check13 {
+    position: absolute;
+    width: 20px;
+    height: 27px;
+    left: 734px;
+    top: 2933px;
+}
+
+#check14 {
+    position: absolute;
+    width: 20px;
+    height: 27px;
+    left: 734px;
+    top: 2988px;
+}
+
+#check15 {
+    position: absolute;
+    width: 20px;
+    height: 27px;
+    left: 1050px;
+    top: 2825px;
+}
+
+#check16 {
+    position: absolute;
+    width: 20px;
+    height: 27px;
+    left: 1050px;
+    top: 2878px;
+}
+
+#check17 {
+    position: absolute;
+    width: 20px;
+    height: 27px;
+    left: 1050px;
+    top: 2958px;
 }
