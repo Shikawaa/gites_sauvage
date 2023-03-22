@@ -188,6 +188,9 @@
     border-radius: 6px;
     stroke: black;
 
+    border: 1px solid rgba(0, 0, 0, 0.03);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -266,6 +269,10 @@
     background: #FFFDFA;
     border-radius: 6px;
     stroke: black;
+
+    
+    border: 1px solid rgba(0, 0, 0, 0.03);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 
     display: flex;
     flex-direction: column;
@@ -347,6 +354,9 @@
     border-radius: 6px;
     stroke: black;
 
+    border: 1px solid rgba(0, 0, 0, 0.03);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -396,6 +406,65 @@
     line-height: 27px;
 }
 
+input[type="checkbox"] {
+    /* Add if not using autoprefixer */
+    -webkit-appearance: none;
+    appearance: none;
+    /* For iOS < 15 to remove gradient background */
+    background-color: #fff;
+    /* Not removed via appearance */
+    margin: 0;
+    font: inherit;
+    color: currentColor;
+    width: 2em;
+    height: 2em;
+    border: 0.15em solid currentColor;
+    border-radius: 0.15em;
+    transform: translateY(-0.075em);
+    display: grid;
+    place-content: center;
+  }
+
+input[type="checkbox"]::before {
+    content: "";
+    width: 1em;
+    height: 1em;
+    transform: scale(0);
+    transition: 120ms transform ease-in-out;
+    box-shadow: inset 1em 1em var(--form-control-color);
+    background-color: CanvasText;
+    transform-origin: bottom left;
+    clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%);
+}
+
+input[type="checkbox"]:checked::before {
+    transform: scale(1);
+}
+
+#checkbox1{
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: 1190px;
+    top: 1185px;
+}
+
+#checkbox2 {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: 1190px;
+    top: 1554px;
+}
+
+#checkbox3 {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: 1190px;
+    top: 1923px;
+}
+
 #recap {
     position: absolute;
     width: 239px;
@@ -438,7 +507,7 @@
     width: 188px;
     height: 48px;
     left: 1094px;
-    top: 2450px;
+    top: 2465px;
 
     color: white;
     font-family: 'Satoshi';
@@ -449,6 +518,98 @@
 
     background: #015D97;
     border-radius: 6px;
+}
+
+#text_recap_1 {
+    z-index : 1;
+    width: 108px;
+    height: 27px;
+
+    position: absolute;
+    width: 556px;
+    height: 48px;
+    left: 726px;
+    top: 2393px;
+
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #000000;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+#text_recap_2 {
+    z-index : 1;
+    width: 152px;
+    height: 27px;
+
+    position: absolute;
+    width: 556px;
+    height: 48px;
+    left: 886px;
+    top: 2393px;
+
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #000000;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+#text_recap_3 {
+    z-index : 1;
+    width: 52px;
+    height: 27px;
+
+    position: absolute;
+    width: 556px;
+    height: 48px;
+    left: 1086px;
+    top: 2393px;
+
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #000000;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+#text_recap_4 {
+    z-index : 1;
+    width: 92px;
+    height: 27px;
+
+    position: absolute;
+    width: 556px;
+    height: 48px;
+    left: 1186px;
+    top: 2393px;
+
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #000000;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
 }
 
 #about_title {
